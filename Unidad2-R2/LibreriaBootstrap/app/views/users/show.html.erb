@@ -1,0 +1,9 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Nombre:</strong>
+  <%= @user.name %>
+</p>
+
+<%= link_to 'Editar', edit_user_path(@user), :class => 'button radius success' %> |
+<%= link_to 'Atras', users_path, :class => 'button radius alert' %>
